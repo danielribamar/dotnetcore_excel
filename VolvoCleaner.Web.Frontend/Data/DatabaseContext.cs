@@ -12,7 +12,7 @@ namespace VolvoCleaner.Web.Frontend.Data
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=tribedevs.cloudapp.net;Database=DEV-VolvoCleaner2017;Persist Security Info=False;User ID=sa;Password=lbz3uZ5kWZ3DAqn1wy6Q;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;");
+        => optionsBuilder.UseSqlServer("CONNECTIONSTRING");
 
         public DbSet<FileModel> Files { get; set; }
         public DbSet<FileTypeModel> FileTypes { get; set; }
