@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64294E28-EB61-4032-A2C1-2E99F4516319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AC6BFE5-C739-4B29-8C9E-6666C30B6F02}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExcelHelper.Frontend", "src\ExcelHelper.Frontend\ExcelHelper.Frontend.xproj", "{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5735A3F4-F1BA-4746-B8AF-BC584FC7A7C4} = {64294E28-EB61-4032-A2C1-2E99F4516319}
+	EndGlobalSection
+EndGlobal
